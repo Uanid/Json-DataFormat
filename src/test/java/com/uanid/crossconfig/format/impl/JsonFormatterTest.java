@@ -14,6 +14,10 @@ import static com.uanid.crossconfig.util.Validate.*;
 
 import java.io.IOException;
 
+/**
+ * @author uanid
+ * @since 2019-06-15
+ */
 public class JsonFormatterTest {
 
     private RawData mapRawData;

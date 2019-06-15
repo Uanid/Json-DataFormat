@@ -10,6 +10,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author uanid
+ * @since 2019-06-15
+ */
 public class JsonNodeDialect implements Dialect<JsonNode, ValueNode, ArrayNode, ObjectNode> {
     @Override
     public NodeType getNodeType(JsonNode jsonNode) {

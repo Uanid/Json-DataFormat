@@ -12,6 +12,10 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertSame;
 
+/**
+ * @author uanid
+ * @since 2019-06-15
+ */
 public class JsonConverterTest {
 
     private String json1;

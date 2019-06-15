@@ -5,6 +5,10 @@ import com.uanid.crossconfig.format.Formatter;
 import com.uanid.crossconfig.format.FormatterProvider;
 import com.uanid.crossconfig.format.FormatterType;
 
+/**
+ * @author uanid
+ * @since 2019-06-15
+ */
 public class JsonFormatterProvider implements FormatterProvider {
     private static final FormatterType FORMATTER_TYPE = new FormatterType("DefaultJacksonJson", "JacksonJson");
 

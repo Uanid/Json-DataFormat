@@ -13,6 +13,10 @@ import com.uanid.crossconfig.rawdata.TextRawData;
 
 import java.io.IOException;
 
+/**
+ * @author uanid
+ * @since 2019-06-15
+ */
 public class JsonFormatHandler extends FormatHandler<TextRawData> {
     protected static final DataFormatType DATA_FORMAT_TYPE = new DataFormatType("Json", "RFC4627|RFC8259");
     private ObjectMapper mapper;
